@@ -22,11 +22,11 @@
 
 # 3. 請讓這個 BMI 計算方法可以顯示期待的結果
 
-def bmi_calculator(height, weight)
-  height = height / 100.0
-  weight = weight 
-  (weight / (height * height)).round(1)
-end
+# def bmi_calculator(height, weight)
+#   height = height / 100.0
+#   weight = weight 
+#   (weight / (height * height)).round(1)
+# end
 
-puts bmi_calculator(170, 50) # 印出 17.3 (小數點以下一位，四捨五入)
-puts bmi_calculator(180, 65) # 印出 20.1 (小數點以下一位，四捨五入)
+# puts bmi_calculator(170, 50) # 印出 17.3 (小數點以下一位，四捨五入)
+# puts bmi_calculator(180, 65) # 印出 20.1 (小數點以下一位，四捨五入)
